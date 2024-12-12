@@ -1,6 +1,6 @@
 using AspNet.QrLogin.Components;
 
-namespace AspNet.QrLogin.Services;
+namespace AspNet.QrLogin.Abstractions;
 
 public interface IQrGeneratorService
 {

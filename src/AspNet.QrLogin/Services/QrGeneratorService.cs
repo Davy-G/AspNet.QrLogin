@@ -1,3 +1,4 @@
+using AspNet.QrLogin.Abstractions;
 using AspNet.QrLogin.Components;
 
 namespace AspNet.QrLogin.Services;

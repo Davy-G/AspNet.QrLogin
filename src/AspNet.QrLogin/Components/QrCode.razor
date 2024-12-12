@@ -1,7 +1,15 @@
+@using AspNet.QrLogin.Abstractions
+@using AspNet.QrLogin.Services
+@inject IQrGeneratorService generator
 <div>
-    <img src="">
+    <img src="@GenerateQrCode()">
 </div>
 
 @code {
+
+    public async Task<QrCode> GenerateQrCode()
+    {
+        return generator.GenerateQrCode();
+    }
 
 }
